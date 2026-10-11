@@ -1,0 +1,12 @@
+[project]
+name = "anil-duraman-ileri-python-hafta3"
+version = "0.1.0"
+description = "İleri Python Programlama Hafta 3 lab ödevi"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
